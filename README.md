@@ -4,13 +4,14 @@ Used Technology:
 	MySQL Database
 	Bootstrap
 	JavaScript
+Installation: Laravel utilizes Composer to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine. Your php version need to be greater than >= 7.2.5. You should have internet connection to run the bootstrap CDN properly.
 User Manual:
 Please import the database “prescription.sql”  which is in the project root directory. 
 Login: The very first way to enter the website is through login. No anonymous users are not allowed. If anyone try to go by typing url without login, he/she will be redirected to login page. Two users have been already created in database. For login:
 1. E-mail         : acbontu@gmail.com
-    Password    : 123456
+    Password      : 123456
 1. E-mail         : ontu12@cse.pstu.ac.bd
-    Password    : 123456
+    Password      : 123456
 Homepage: After login successfully, user will be directed to the home page. 
 Firstly, all prescriptions of  the current month will be shown. There is a filter by which one can get the prescriptions of the given date range. 
 Also, there is a button named “All prescriptions”, by clicking this, user would be able to see the all prescriptions of database. 
