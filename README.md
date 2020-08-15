@@ -4,7 +4,7 @@ Used Technology:
 	MySQL Database
 	Bootstrap
 	JavaScript
-Installation: Laravel utilizes Composer to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine. Your php version need to be greater than >= 7.2.5. You should have internet connection to run the bootstrap CDN properly.
+Installation: Laravel utilizes Composer to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine. Your php version need to be greater than >= 7.2.5. You should have internet connection to run the bootstrap CDN properly. Please import the database “prescription.sql”  which is in the project root directory and change the related fields in .env file.
 User Manual:
 Please import the database “prescription.sql”  which is in the project root directory. 
 Login: The very first way to enter the website is through login. No anonymous users are not allowed. If anyone try to go by typing url without login, he/she will be redirected to login page. Two users have been already created in database. For login:
